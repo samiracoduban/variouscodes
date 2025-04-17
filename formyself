@@ -32,7 +32,4 @@ Accept	application/json;odata=verbose
 
 
 
-or(
-  not(equals(triggerOutputs()?['body/Status/Value'], body('Parse_JSON')?['d']['results'][1]['Status'])),
-  empty(body('Parse_JSON')?['d']['results'][1]['Status'])
-)
+empty(body('Parse_JSON')?['d']['results'][1]['Status'])
