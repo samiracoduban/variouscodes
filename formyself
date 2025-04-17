@@ -1,0 +1,20 @@
+{
+  "type": "object",
+  "properties": {
+    "d": {
+      "type": "object",
+      "properties": {
+        "results": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "VersionLabel": { "type": "string" },
+              "Status": { "type": "string" }
+            }
+          }
+        }
+      }
+    }
+  }
+}
