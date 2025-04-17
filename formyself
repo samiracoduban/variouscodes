@@ -33,3 +33,9 @@ Accept	application/json;odata=verbose
 
 
 empty(body('Parse_JSON')?['d']['results'][1]['Status'])
+
+
+Action 'Condition' failed: Unable to process template language expressions for action 'Condition' at line '0' and column '0': 'The template language expression 'body('Parse_JSON')?['d']['results'][1]['Status']' cannot be evaluated because array index '1' is outside bounds (0, 0) of array. Please see https://aka.ms/logicexpressions for usage details.'.
+1
+
+
